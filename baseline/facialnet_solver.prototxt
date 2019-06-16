@@ -1,0 +1,15 @@
+net: "train_val.prototxt" #用于训练或预测的网络
+test_iter: 110 #测试阶段迭代次数，测试阶段的batch_size为32,在次设置迭代次数为110,能包含3520个测试样本
+test_interval: 1000 #训练时，每经过1000次迭代，进行一次预测
+base_lr: 0.001 #网络学习率
+momentum: 0.9 #网络冲量
+weight_decay: 0.0005 #网络权衰量
+#学习速率的衰减策略
+lr_policy: "fixed"
+gamma: 0.1
+stepsize: 50000
+display: 1000 #每经过1000次迭代，print一下
+max_iter: 200000 #训练阶段最大迭代次数
+snapshot: 200000 #每两万次迭代得出一个模型
+snapshot_prefix: "myfacialnet"
+solver_mode: GPU
