@@ -8,7 +8,7 @@ Jin Kaiqi  516030910382
 
 **In the folder "Classifier"** 
 
-In this part, we train the VGG19 and RenNet18 and use model averaging idea to get a improvement. You can download pretrained model in https://jbox.sjtu.edu.cn/l/iJFKfe(password:itxu)
+In this part, we train the VGG19 and RenNet18 and use model averaging idea to get a improvement. You can download pretrained model in https://jbox.sjtu.edu.cn/l/iJFKfe  (password:itxu)
 
 #### Usage
 
@@ -48,7 +48,8 @@ python model_average.py --model VGG19 --model ResNet18 --bs 128
 
 **In the folder "attack & defense"**
 
-We apply DeepFool to attack the trained model and put the attack samples into training dataset to make the model more robust after model retraining. You can download pretrained model in https://jbox.sjtu.edu.cn/l/EnSEzf(password:cath)
+We apply DeepFool to attack the trained model and put the attack samples into training dataset to make the model more robust after model retraining. You can download pretrained model in https://jbox.sjtu.edu.cn/l/EnSEzf 
+ (password:cath)
 
 #### Usage
 
